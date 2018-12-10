@@ -27,8 +27,8 @@ body {
 }
 
 .wrapper {
-    width: 1000px;
-    position: absolute;
+    width: 90%;
+    position: relative;
     top: 40%;
     left: 50%;
     bottom: 10%;
@@ -42,8 +42,8 @@ body {
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 600px;
-    padding: 100px;
+    height: 100%;
+    padding: 10%;
 }
 
 
@@ -53,27 +53,16 @@ body {
 **********************************************/
 
 .player-name {
-    font-size: 40px;
+    font-size: 400%;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 20%;
     font-weight: 100;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 10%;
+    margin-bottom: 20%;
     position: relative;
+    color:black;
 }
-
-.player-score {
-    text-align: center;
-    font-size: 80px;
-    font-weight: 100;
-    color: #EB4D4D;
-    margin-bottom: 130px;
-}
-
-
-
-
 
 .player-current-label {
     text-transform: uppercase;
@@ -120,23 +109,34 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-new { top: 45px;}
-.btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
-
-#decision{
+#decision0{
     color:white;
     background-color: black;
-    font-size: 60px;
+    font-size: 400%;
+    display: none;
+    }
+#decision1{
+    color:white;
+    background-color: black;
+    font-size: 400%;
     display: none;
     }
 
-#options{
+#options0{
+    margin-bottom: 20px;
+    display: block;
+}
+#options1{
     margin-bottom: 20px;
     display: block;
 }
 
-#new-game{
+#new-game {
    position: absolute;
-
-    }
+  color:black;
+}
+#reveal{
+  position:absolute;
+  color:black;
+  display:none;
+}
