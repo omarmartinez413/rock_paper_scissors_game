@@ -79,7 +79,7 @@ function showWinner(){
   if(player0.includes('rock'))
     {
       if(player1.includes('rock')){
-        alert("its a tie");
+        alert("ITS A TIE!!");
         document.getElementById('reveal').style.display = 'none';
       }else if(player1.includes('paper')){
         player1Wins();
@@ -91,7 +91,7 @@ function showWinner(){
     if(player1.includes('rock')){
         player0Wins();
       }else if(player1.includes('paper')){
-        alert('its a tie');
+        alert("ITS A TIE!!");
         document.getElementById('reveal').style.display = 'none';
       }else{
         player1Wins();
@@ -102,7 +102,7 @@ function showWinner(){
       }else if(player1.includes('paper')){
         player0Wins();
       }else{
-        alert('its a tie');
+        alert("ITS A TIE!!");
         document.getElementById('reveal').style.display = 'none';
     }
   }
